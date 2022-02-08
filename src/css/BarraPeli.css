@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.Peli-Cont{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    padding: 20px;
+    text-align: start;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.Peli-Title{
+    font-weight: bolder;
+}
+.Peli-Description{
+    width: 60%;
+}

@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Peliculas from './Context/Peliculas'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Peliculas>
+      <App />
+    </Peliculas>
   </React.StrictMode>,
   document.getElementById('root')
 );
